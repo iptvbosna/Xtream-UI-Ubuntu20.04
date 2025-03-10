@@ -6,7 +6,7 @@ from zipfile import ZipFile
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
-rDownloadURL = {"main": "http://sehara.eu:5656/XtreamUI/main_xcui.zip", "sub": "http://sehara.eu:5656/XtreamUI/sub_xcui.zip"}
+rDownloadURL = {"main": "https://www.dropbox.com/scl/fi/0pj7nqcju0xtaad3e4h99/main_xui.zip?rlkey=kvf4kqlpgv8tdxkq4t64b73cx&st=fc84p9h7&dl=1", "sub": "https://www.dropbox.com/scl/fi/49lui9ulkuslfis7uuuzb/sub_xui.zip?rlkey=y70hssz2217t8lvn2ngtfjl06&st=u5fmvhye&dl=1"}
 rPackages = ["libcurl4", "libxslt1-dev", "libgeoip-dev", "libonig-dev", "e2fsprogs", "wget", "mcrypt", "nscd", "htop", "zip", "unzip", "mc", "mariadb-server", "libpng16-16", "libzip5", "python3-paramiko", "python-is-python3"]
 rInstall = {"MAIN": "main", "LB": "sub"}
 rUpdate = {"UPDATE": "update"}
