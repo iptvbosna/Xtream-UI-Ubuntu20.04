@@ -6,7 +6,7 @@ from zipfile import ZipFile
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
 
-rDownloadURL = "http://sehara.eu:5656/XtreamUI/sub_xcui.zip"
+rDownloadURL = "https://www.dropbox.com/scl/fi/49lui9ulkuslfis7uuuzb/sub_xui.zip?rlkey=y70hssz2217t8lvn2ngtfjl06&st=u5fmvhye&dl=1"
 rPackages = ["libcurl4", "libxslt1-dev", "libgeoip-dev", "e2fsprogs", "wget", "mcrypt", "nscd", "htop", "zip", "unzip", "mc", "libzip5"]
 
 def getVersion():
